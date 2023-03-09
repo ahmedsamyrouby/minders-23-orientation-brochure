@@ -13,7 +13,7 @@ section{
 }
 
 section > div,
-section h1{
+section > h1{
     padding-left: 1rem;
     padding-right: 1rem;
 }
@@ -85,6 +85,15 @@ p{
     margin-bottom: 0;
 }
 
+.final img{
+    width: 100%;
+}
+
+.socials-footer{
+    margin-top: -5rem;
+    margin-bottom: 10rem;
+}
+
 .bottom-wave {
     bottom: 0;
     right: 0;
@@ -92,6 +101,7 @@ p{
 
 .article {
     margin-bottom: 0;
+    position: relative;
 }
 
 .committees {
@@ -107,5 +117,31 @@ p{
 }
 
 .committee-name {
+    color: var(--minders-yellow);
+}
+
+.article-dots{
+    position: absolute;
+    width: 40%;
+    left: -10%;
+    top: -15%;
+}
+
+a.socials{
+    padding: 1rem 2rem;
+    margin: 2.5rem 0;
+    text-align: center;
+    font-size: 1.25rem;
+    text-decoration: none;
+    background-color: var(--minders-yellow);
+    color: black;
+    font-weight: 600;
+    border-radius: 0.5rem;
+    transition: 0.2s;
+}
+
+a.socials:hover{
+    background-color: black;
+    outline: 2px solid var(--minders-yellow);
     color: var(--minders-yellow);
 }

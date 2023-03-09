@@ -3,9 +3,9 @@
 
 :root{
     --minders-yellow: #FFC500;
-    --main-heading-size: 2.5rem;
-    --titles-size: 1.75rem;
-    --text-size: 1.15rem;
+    --main-heading-size: 2.25rem;
+    --titles-size: 1.5rem;
+    --text-size: 1rem;
 }
 
 body{
